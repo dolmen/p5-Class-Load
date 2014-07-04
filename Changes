@@ -1,6 +1,10 @@
 Revision history for Class-Load
 
 {{$NEXT}}
+    - Class::Load doesn't inherit anymore from Exporter: just its 'import'
+      method is imported. (Olivier Mengué)
+
+    - Class::Load doesn't use base.pm anymore. (Olivier Mengué)
 
 0.23     2015-06-25
     - remove use of namespace::clean
