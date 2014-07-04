@@ -6,7 +6,7 @@ package Class::Load;
 
 our $VERSION = '0.24';
 
-use base 'Exporter';
+use Exporter 'import';
 use Data::OptList ();
 use Module::Implementation 0.04;
 use Module::Runtime 0.012 ();
